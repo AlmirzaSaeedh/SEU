@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        BPup =(Button) findViewById(R.id.btacademic);
+      /*  BPup =(Button) findViewById(R.id.btacademic);
         BPup.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent B = new Intent(MainActivity.this,listpop.class);
                 startActivity(B);
             }
-        });
+        }); */
     }
 
 }
