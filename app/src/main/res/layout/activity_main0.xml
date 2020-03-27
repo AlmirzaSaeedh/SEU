@@ -5,16 +5,19 @@
     android:id="@+id/form1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_x="50dp"
+    android:layout_y="75dp"
     tools:context=".MainActivity">
 
 
     <GridView
+        android:id="@+id/gridv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/gridv"
-        android:columnWidth="20dp"
+        android:columnWidth="10dp"
         android:horizontalSpacing="2dp"
         android:numColumns="4"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="2dp"/>
+        android:verticalSpacing="2dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
